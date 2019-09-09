@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 套件-->
+<suite name="DataCenter">
+    <!-- 测试集/模块-->
+    <test name="login">
+        <!-- 测试类-->
+        <classes>
+            <class name="zdh.caseuse.LoginCase" >
+                <methods>
+                    <include name="login"></include>
+                </methods>
+            </class>
+            <class name="zdh.caseuse.Depend1" >
+            <methods>
+                <include name="getBrand"></include>
+            </methods>
+            </class>
+            <class name="zdh.caseuse.SelectSpec">
+                <methods>
+                <include name="getSpec"></include>
+                </methods>
+            </class>
+            <class name="zdh.caseuse.SelectTyre">
+            <methods>
+                <include name="getTyre"></include>
+            </methods>
+        </class>
+            <class name="zdh.caseuse.SelectTraffic">
+                <methods>
+                    <include name="selectTraffic"></include>
+                </methods>
+            </class>
+            <class name="zdh.caseuse.GetPhone">
+                <methods>
+                    <include name="getPhone"></include>
+                </methods>
+            </class>
+
+            <class name="zdh.caseuse.InsuranceCompany">
+                <methods>
+                    <include name="getInsurance"></include>
+                </methods>
+            </class>
+            <class name="zdh.caseuse.OilPrice">
+                <methods>
+                    <include name="getOilPrice"></include>
+                </methods>
+            </class>
+
+            <class name="zdh.service.BaseProcessor"/>
+
+        </classes>
+
+    </test>
+    <listeners>
+        <listener class-name="zdh.config.ExtentTestNGIReporterListener" />
+    </listeners>
+</suite>

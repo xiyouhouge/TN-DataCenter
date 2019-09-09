@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 2.918 sec <<< FAILURE! - in TestSuite
+selectTraffic(zdh.caseuse.SelectTraffic)  Time elapsed: 0.05 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at zdh.service.BaseProcessor.ExcuteCase(BaseProcessor.java:46)
+	at zdh.caseuse.SelectTraffic.selectTraffic(SelectTraffic.java:25)
+
+getPhone(zdh.caseuse.GetPhone)  Time elapsed: 0.054 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at zdh.service.BaseProcessor.ExcuteCase(BaseProcessor.java:46)
+	at zdh.caseuse.GetPhone.getPhone(GetPhone.java:21)
+
+getOilPrice(zdh.caseuse.OilPrice)  Time elapsed: 0.061 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at zdh.service.BaseProcessor.ExcuteCase(BaseProcessor.java:46)
+	at zdh.caseuse.OilPrice.getOilPrice(OilPrice.java:19)
+
+getTyre(zdh.caseuse.SelectTyre)  Time elapsed: 0.083 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at zdh.service.BaseProcessor.ExcuteCase(BaseProcessor.java:46)
+	at zdh.caseuse.SelectTyre.getTyre(SelectTyre.java:28)
+

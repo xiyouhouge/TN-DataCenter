@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="1.233" tests="11" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\zhongruiyun"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\zhongruiyun"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\haha\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="F:\intellij idea\IntelliJ IDEA Community Edition 2018.2.5\plugins\maven\lib\maven3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\officeSoft\;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;D:\SVN\bin;C:\Program Files\Java\jdk1.8.0_121\bin;E:\Tomcat\apache-tomcat-8.0.52\bin;E:\frame\driver;E:\Github\Git\cmd;C:\windows\System32\OpenSSH\;C:\Program Files\nodejs\;F:\intellij idea\IntelliJ IDEA Community Edition 2018.2.5\plugins\maven\lib\maven3\bin;E:\Ant\apache-ant-1.10.6\bin;E:\python\Anaconda3;E:\python\Anaconda3\Scripts;E:\python\Anaconda3\Library\bin;C:\Users\haha\AppData\Local\Microsoft\WindowsApps;E:\unittest\Microsoft VS Code\bin;C:\Users\haha\AppData\Roaming\npm;E:\python\PyCharm Community Edition 2019.1.2\bin;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\haha"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="haha"/>
+    <property name="java.class.path" value="F:\intellij idea\IntelliJ IDEA Community Edition 2018.2.5\plugins\maven\lib\maven3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\intellij idea\IntelliJ IDEA Community Edition 2018.2.5\plugins\maven\lib\maven3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="login" classname="zdh.caseuse.LoginCase" time="0.633"/>
+  <testcase name="getBrand" classname="zdh.caseuse.Depend1" time="0.196"/>
+  <testcase name="selectTraffic" classname="zdh.caseuse.SelectTraffic" time="0.05">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at zdh.service.BaseProcessor.ExcuteCase(BaseProcessor.java:46)
+	at zdh.caseuse.SelectTraffic.selectTraffic(SelectTraffic.java:25)
+</failure>
+    <system-out><![CDATA[杈撳嚭datas[[Ljava.lang.Object;@75c56eb9
+杈撳嚭璁よ瘉淇℃伅Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjcwRkYzQTE1QjcyNjczOEY0ODcyOTEyREZCNEVCMEZFQTQ3REUxRjEiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJjUDg2RmJjbWM0OUljcEV0LTA2d19xUjk0ZkUifQ.eyJuYmYiOjE1Njc3MzE1OTUsImV4cCI6MTU2Nzc2NzU5NSwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS1mYXQubHVuei5jbiIsImF1ZCI6WyJodHRwczovL2lkZW50aXR5LWZhdC5sdW56LmNuL3Jlc291cmNlcyIsImRjLWFydGljbGVzLWFwaSJdLCJjbGllbnRfaWQiOiJjbGllbnQxIiwic2NvcGUiOlsiZGMtYXJ0aWNsZXMtYXBpIl19.Yfx46j6SxLZy92xWmMpVCf6_n9bbBDdlPle6oYv0Ok1a4e3bPoD-DqNfnmRVzwfKHemnqDJzFtb-kuG9hT_o1PcEYfIim748nSannfGZoYn0Swh8yvUG6398XGr1Ex_IJ-NIoifaZ4GGab7IzUiNcbKuqGxKi3Mw97cdPsZAVdpTMUDubxaLG0yeZfLKOXumvgtx4w7CiWX5WrwsVoQ-1NZvP8-SYWRRU_-vRaMeN5BqOXjHZPEv4KSzpjRV5IJuVujc1WC4SDv6x6ARSVWvAtshgNmj-0awQmppAKaw3g_VYT73Ka1cmhDyq9IDSL9iM8otckDNMT4EVtJ6dR8opw
+08:59:51.329 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+08:59:51.330 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+08:59:51.330 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+08:59:51.330 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 2][route: {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+08:59:51.330 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80
+08:59:51.330 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to dc-basics-api-gw-fat.k8s.lunz.cn/47.99.15.3:80
+08:59:51.359 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.4.50:2176<->47.99.15.3:80
+08:59:51.359 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /api/v1/trafficPoliceTeams/VI0000000069 HTTP/1.1
+08:59:51.359 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+08:59:51.360 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> GET /api/v1/trafficPoliceTeams/VI0000000069 HTTP/1.1
+08:59:51.360 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjcwRkYzQTE1QjcyNjczOEY0ODcyOTEyREZCNEVCMEZFQTQ3REUxRjEiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJjUDg2RmJjbWM0OUljcEV0LTA2d19xUjk0ZkUifQ.eyJuYmYiOjE1Njc3MzE1OTUsImV4cCI6MTU2Nzc2NzU5NSwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS1mYXQubHVuei5jbiIsImF1ZCI6WyJodHRwczovL2lkZW50aXR5LWZhdC5sdW56LmNuL3Jlc291cmNlcyIsImRjLWFydGljbGVzLWFwaSJdLCJjbGllbnRfaWQiOiJjbGllbnQxIiwic2NvcGUiOlsiZGMtYXJ0aWNsZXMtYXBpIl19.Yfx46j6SxLZy92xWmMpVCf6_n9bbBDdlPle6oYv0Ok1a4e3bPoD-DqNfnmRVzwfKHemnqDJzFtb-kuG9hT_o1PcEYfIim748nSannfGZoYn0Swh8yvUG6398XGr1Ex_IJ-NIoifaZ4GGab7IzUiNcbKuqGxKi3Mw97cdPsZAVdpTMUDubxaLG0yeZfLKOXumvgtx4w7CiWX5WrwsVoQ-1NZvP8-SYWRRU_-vRaMeN5BqOXjHZPEv4KSzpjRV5IJuVujc1WC4SDv6x6ARSVWvAtshgNmj-0awQmppAKaw3g_VYT73Ka1cmhDyq9IDSL9iM8otckDNMT4EVtJ6dR8opw
+08:59:51.360 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Host: dc-basics-api-gw-fat.k8s.lunz.cn
+08:59:51.360 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Connection: Keep-Alive
+08:59:51.360 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+08:59:51.360 [main] DEBUG org.apache.http.headers - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+08:59:51.360 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "GET /api/v1/trafficPoliceTeams/VI0000000069 HTTP/1.1[\r][\n]"
+08:59:51.360 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjcwRkYzQTE1QjcyNjczOEY0ODcyOTEyREZCNEVCMEZFQTQ3REUxRjEiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJjUDg2RmJjbWM0OUljcEV0LTA2d19xUjk0ZkUifQ.eyJuYmYiOjE1Njc3MzE1OTUsImV4cCI6MTU2Nzc2NzU5NSwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS1mYXQubHVuei5jbiIsImF1ZCI6WyJodHRwczovL2lkZW50aXR5LWZhdC5sdW56LmNuL3Jlc291cmNlcyIsImRjLWFydGljbGVzLWFwaSJdLCJjbGllbnRfaWQiOiJjbGllbnQxIiwic2NvcGUiOlsiZGMtYXJ0aWNsZXMtYXBpIl19.Yfx46j6SxLZy92xWmMpVCf6_n9bbBDdlPle6oYv0Ok1a4e3bPoD-DqNfnmRVzwfKHemnqDJzFtb-kuG9hT_o1PcEYfIim748nSannfGZoYn0Swh8yvUG6398XGr1Ex_IJ-NIoifaZ4GGab7IzUiNcbKuqGxKi3Mw97cdPsZAVdpTMUDubxaLG0yeZfLKOXumvgtx4w7CiWX5WrwsVoQ-1NZvP8-SYWRRU_-vRaMeN5BqOXjHZPEv4KSzpjRV5IJuVujc1WC4SDv6x6ARSVWvAtshgNmj-0awQmppAKaw3g_VYT73Ka1cmhDyq9IDSL9iM8otckDNMT4EVtJ6dR8opw[\r][\n]"
+08:59:51.360 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Host: dc-basics-api-gw-fat.k8s.lunz.cn[\r][\n]"
+08:59:51.360 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+08:59:51.360 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)[\r][\n]"
+08:59:51.360 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08:59:51.360 [main] DEBUG org.apache.http.wire - http-outgoing-2 >> "[\r][\n]"
+08:59:51.400 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "HTTP/1.1 404 Not Found[\r][\n]"
+08:59:51.401 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Date: Fri, 06 Sep 2019 00:59:55 GMT[\r][\n]"
+08:59:51.401 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Content-Length: 0[\r][\n]"
+08:59:51.401 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+08:59:51.401 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "Server: Kestrel[\r][\n]"
+08:59:51.401 [main] DEBUG org.apache.http.wire - http-outgoing-2 << "[\r][\n]"
+08:59:51.401 [main] DEBUG org.apache.http.headers - http-outgoing-2 << HTTP/1.1 404 Not Found
+08:59:51.401 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Date: Fri, 06 Sep 2019 00:59:55 GMT
+08:59:51.401 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Content-Length: 0
+08:59:51.402 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Connection: keep-alive
+08:59:51.402 [main] DEBUG org.apache.http.headers - http-outgoing-2 << Server: Kestrel
+08:59:51.402 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+08:59:51.402 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 2][route: {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80] can be kept alive indefinitely
+08:59:51.402 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 2][route: {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+]]></system-out>
+  </testcase>
+  <testcase name="getPhone" classname="zdh.caseuse.GetPhone" time="0.068"/>
+  <testcase name="getPhone" classname="zdh.caseuse.GetPhone" time="0.054">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at zdh.service.BaseProcessor.ExcuteCase(BaseProcessor.java:46)
+	at zdh.caseuse.GetPhone.getPhone(GetPhone.java:21)
+</failure>
+    <system-out><![CDATA[杈撳嚭璁よ瘉淇℃伅Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjcwRkYzQTE1QjcyNjczOEY0ODcyOTEyREZCNEVCMEZFQTQ3REUxRjEiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJjUDg2RmJjbWM0OUljcEV0LTA2d19xUjk0ZkUifQ.eyJuYmYiOjE1Njc3MzE1OTUsImV4cCI6MTU2Nzc2NzU5NSwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS1mYXQubHVuei5jbiIsImF1ZCI6WyJodHRwczovL2lkZW50aXR5LWZhdC5sdW56LmNuL3Jlc291cmNlcyIsImRjLWFydGljbGVzLWFwaSJdLCJjbGllbnRfaWQiOiJjbGllbnQxIiwic2NvcGUiOlsiZGMtYXJ0aWNsZXMtYXBpIl19.Yfx46j6SxLZy92xWmMpVCf6_n9bbBDdlPle6oYv0Ok1a4e3bPoD-DqNfnmRVzwfKHemnqDJzFtb-kuG9hT_o1PcEYfIim748nSannfGZoYn0Swh8yvUG6398XGr1Ex_IJ-NIoifaZ4GGab7IzUiNcbKuqGxKi3Mw97cdPsZAVdpTMUDubxaLG0yeZfLKOXumvgtx4w7CiWX5WrwsVoQ-1NZvP8-SYWRRU_-vRaMeN5BqOXjHZPEv4KSzpjRV5IJuVujc1WC4SDv6x6ARSVWvAtshgNmj-0awQmppAKaw3g_VYT73Ka1cmhDyq9IDSL9iM8otckDNMT4EVtJ6dR8opw
+08:59:51.480 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+08:59:51.480 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+08:59:51.480 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+08:59:51.480 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 4][route: {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+08:59:51.480 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80
+08:59:51.481 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to dc-basics-api-gw-fat.k8s.lunz.cn/47.99.15.3:80
+08:59:51.504 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.4.50:2178<->47.99.15.3:80
+08:59:51.504 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /api/v1/rescuePhones/provinceCode/110 HTTP/1.1
+08:59:51.504 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+08:59:51.504 [main] DEBUG org.apache.http.headers - http-outgoing-4 >> GET /api/v1/rescuePhones/provinceCode/110 HTTP/1.1
+08:59:51.504 [main] DEBUG org.apache.http.headers - http-outgoing-4 >> authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjcwRkYzQTE1QjcyNjczOEY0ODcyOTEyREZCNEVCMEZFQTQ3REUxRjEiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJjUDg2RmJjbWM0OUljcEV0LTA2d19xUjk0ZkUifQ.eyJuYmYiOjE1Njc3MzE1OTUsImV4cCI6MTU2Nzc2NzU5NSwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS1mYXQubHVuei5jbiIsImF1ZCI6WyJodHRwczovL2lkZW50aXR5LWZhdC5sdW56LmNuL3Jlc291cmNlcyIsImRjLWFydGljbGVzLWFwaSJdLCJjbGllbnRfaWQiOiJjbGllbnQxIiwic2NvcGUiOlsiZGMtYXJ0aWNsZXMtYXBpIl19.Yfx46j6SxLZy92xWmMpVCf6_n9bbBDdlPle6oYv0Ok1a4e3bPoD-DqNfnmRVzwfKHemnqDJzFtb-kuG9hT_o1PcEYfIim748nSannfGZoYn0Swh8yvUG6398XGr1Ex_IJ-NIoifaZ4GGab7IzUiNcbKuqGxKi3Mw97cdPsZAVdpTMUDubxaLG0yeZfLKOXumvgtx4w7CiWX5WrwsVoQ-1NZvP8-SYWRRU_-vRaMeN5BqOXjHZPEv4KSzpjRV5IJuVujc1WC4SDv6x6ARSVWvAtshgNmj-0awQmppAKaw3g_VYT73Ka1cmhDyq9IDSL9iM8otckDNMT4EVtJ6dR8opw
+08:59:51.504 [main] DEBUG org.apache.http.headers - http-outgoing-4 >> Host: dc-basics-api-gw-fat.k8s.lunz.cn
+08:59:51.504 [main] DEBUG org.apache.http.headers - http-outgoing-4 >> Connection: Keep-Alive
+08:59:51.504 [main] DEBUG org.apache.http.headers - http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+08:59:51.504 [main] DEBUG org.apache.http.headers - http-outgoing-4 >> Accept-Encoding: gzip,deflate
+08:59:51.504 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "GET /api/v1/rescuePhones/provinceCode/110 HTTP/1.1[\r][\n]"
+08:59:51.504 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjcwRkYzQTE1QjcyNjczOEY0ODcyOTEyREZCNEVCMEZFQTQ3REUxRjEiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJjUDg2RmJjbWM0OUljcEV0LTA2d19xUjk0ZkUifQ.eyJuYmYiOjE1Njc3MzE1OTUsImV4cCI6MTU2Nzc2NzU5NSwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS1mYXQubHVuei5jbiIsImF1ZCI6WyJodHRwczovL2lkZW50aXR5LWZhdC5sdW56LmNuL3Jlc291cmNlcyIsImRjLWFydGljbGVzLWFwaSJdLCJjbGllbnRfaWQiOiJjbGllbnQxIiwic2NvcGUiOlsiZGMtYXJ0aWNsZXMtYXBpIl19.Yfx46j6SxLZy92xWmMpVCf6_n9bbBDdlPle6oYv0Ok1a4e3bPoD-DqNfnmRVzwfKHemnqDJzFtb-kuG9hT_o1PcEYfIim748nSannfGZoYn0Swh8yvUG6398XGr1Ex_IJ-NIoifaZ4GGab7IzUiNcbKuqGxKi3Mw97cdPsZAVdpTMUDubxaLG0yeZfLKOXumvgtx4w7CiWX5WrwsVoQ-1NZvP8-SYWRRU_-vRaMeN5BqOXjHZPEv4KSzpjRV5IJuVujc1WC4SDv6x6ARSVWvAtshgNmj-0awQmppAKaw3g_VYT73Ka1cmhDyq9IDSL9iM8otckDNMT4EVtJ6dR8opw[\r][\n]"
+08:59:51.504 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "Host: dc-basics-api-gw-fat.k8s.lunz.cn[\r][\n]"
+08:59:51.504 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+08:59:51.504 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)[\r][\n]"
+08:59:51.504 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08:59:51.504 [main] DEBUG org.apache.http.wire - http-outgoing-4 >> "[\r][\n]"
+08:59:51.534 [main] DEBUG org.apache.http.wire - http-outgoing-4 << "HTTP/1.1 404 Not Found[\r][\n]"
+08:59:51.534 [main] DEBUG org.apache.http.wire - http-outgoing-4 << "Date: Fri, 06 Sep 2019 00:59:56 GMT[\r][\n]"
+08:59:51.534 [main] DEBUG org.apache.http.wire - http-outgoing-4 << "Content-Length: 0[\r][\n]"
+08:59:51.534 [main] DEBUG org.apache.http.wire - http-outgoing-4 << "Connection: keep-alive[\r][\n]"
+08:59:51.534 [main] DEBUG org.apache.http.wire - http-outgoing-4 << "Server: Kestrel[\r][\n]"
+08:59:51.534 [main] DEBUG org.apache.http.wire - http-outgoing-4 << "[\r][\n]"
+08:59:51.534 [main] DEBUG org.apache.http.headers - http-outgoing-4 << HTTP/1.1 404 Not Found
+08:59:51.534 [main] DEBUG org.apache.http.headers - http-outgoing-4 << Date: Fri, 06 Sep 2019 00:59:56 GMT
+08:59:51.534 [main] DEBUG org.apache.http.headers - http-outgoing-4 << Content-Length: 0
+08:59:51.534 [main] DEBUG org.apache.http.headers - http-outgoing-4 << Connection: keep-alive
+08:59:51.534 [main] DEBUG org.apache.http.headers - http-outgoing-4 << Server: Kestrel
+08:59:51.534 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+08:59:51.534 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 4][route: {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80] can be kept alive indefinitely
+08:59:51.534 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 4][route: {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+]]></system-out>
+  </testcase>
+  <testcase name="getInsurance" classname="zdh.caseuse.InsuranceCompany" time="0.065"/>
+  <testcase name="getOilPrice" classname="zdh.caseuse.OilPrice" time="0.061">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at zdh.service.BaseProcessor.ExcuteCase(BaseProcessor.java:46)
+	at zdh.caseuse.OilPrice.getOilPrice(OilPrice.java:19)
+</failure>
+    <system-out><![CDATA[08:59:51.598 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+08:59:51.598 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+08:59:51.598 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+08:59:51.598 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 6][route: {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+08:59:51.598 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80
+08:59:51.599 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to dc-basics-api-gw-fat.k8s.lunz.cn/47.99.15.3:80
+08:59:51.630 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.4.50:2180<->47.99.15.3:80
+08:59:51.630 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /api/v1/fuelPrice/ HTTP/1.1
+08:59:51.630 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+08:59:51.630 [main] DEBUG org.apache.http.headers - http-outgoing-6 >> GET /api/v1/fuelPrice/ HTTP/1.1
+08:59:51.630 [main] DEBUG org.apache.http.headers - http-outgoing-6 >> authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjcwRkYzQTE1QjcyNjczOEY0ODcyOTEyREZCNEVCMEZFQTQ3REUxRjEiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJjUDg2RmJjbWM0OUljcEV0LTA2d19xUjk0ZkUifQ.eyJuYmYiOjE1Njc3MzE1OTUsImV4cCI6MTU2Nzc2NzU5NSwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS1mYXQubHVuei5jbiIsImF1ZCI6WyJodHRwczovL2lkZW50aXR5LWZhdC5sdW56LmNuL3Jlc291cmNlcyIsImRjLWFydGljbGVzLWFwaSJdLCJjbGllbnRfaWQiOiJjbGllbnQxIiwic2NvcGUiOlsiZGMtYXJ0aWNsZXMtYXBpIl19.Yfx46j6SxLZy92xWmMpVCf6_n9bbBDdlPle6oYv0Ok1a4e3bPoD-DqNfnmRVzwfKHemnqDJzFtb-kuG9hT_o1PcEYfIim748nSannfGZoYn0Swh8yvUG6398XGr1Ex_IJ-NIoifaZ4GGab7IzUiNcbKuqGxKi3Mw97cdPsZAVdpTMUDubxaLG0yeZfLKOXumvgtx4w7CiWX5WrwsVoQ-1NZvP8-SYWRRU_-vRaMeN5BqOXjHZPEv4KSzpjRV5IJuVujc1WC4SDv6x6ARSVWvAtshgNmj-0awQmppAKaw3g_VYT73Ka1cmhDyq9IDSL9iM8otckDNMT4EVtJ6dR8opw
+08:59:51.630 [main] DEBUG org.apache.http.headers - http-outgoing-6 >> Host: dc-basics-api-gw-fat.k8s.lunz.cn
+08:59:51.630 [main] DEBUG org.apache.http.headers - http-outgoing-6 >> Connection: Keep-Alive
+08:59:51.630 [main] DEBUG org.apache.http.headers - http-outgoing-6 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+08:59:51.630 [main] DEBUG org.apache.http.headers - http-outgoing-6 >> Accept-Encoding: gzip,deflate
+08:59:51.630 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "GET /api/v1/fuelPrice/ HTTP/1.1[\r][\n]"
+08:59:51.630 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjcwRkYzQTE1QjcyNjczOEY0ODcyOTEyREZCNEVCMEZFQTQ3REUxRjEiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJjUDg2RmJjbWM0OUljcEV0LTA2d19xUjk0ZkUifQ.eyJuYmYiOjE1Njc3MzE1OTUsImV4cCI6MTU2Nzc2NzU5NSwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS1mYXQubHVuei5jbiIsImF1ZCI6WyJodHRwczovL2lkZW50aXR5LWZhdC5sdW56LmNuL3Jlc291cmNlcyIsImRjLWFydGljbGVzLWFwaSJdLCJjbGllbnRfaWQiOiJjbGllbnQxIiwic2NvcGUiOlsiZGMtYXJ0aWNsZXMtYXBpIl19.Yfx46j6SxLZy92xWmMpVCf6_n9bbBDdlPle6oYv0Ok1a4e3bPoD-DqNfnmRVzwfKHemnqDJzFtb-kuG9hT_o1PcEYfIim748nSannfGZoYn0Swh8yvUG6398XGr1Ex_IJ-NIoifaZ4GGab7IzUiNcbKuqGxKi3Mw97cdPsZAVdpTMUDubxaLG0yeZfLKOXumvgtx4w7CiWX5WrwsVoQ-1NZvP8-SYWRRU_-vRaMeN5BqOXjHZPEv4KSzpjRV5IJuVujc1WC4SDv6x6ARSVWvAtshgNmj-0awQmppAKaw3g_VYT73Ka1cmhDyq9IDSL9iM8otckDNMT4EVtJ6dR8opw[\r][\n]"
+08:59:51.630 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "Host: dc-basics-api-gw-fat.k8s.lunz.cn[\r][\n]"
+08:59:51.630 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+08:59:51.630 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)[\r][\n]"
+08:59:51.630 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08:59:51.630 [main] DEBUG org.apache.http.wire - http-outgoing-6 >> "[\r][\n]"
+08:59:51.658 [main] DEBUG org.apache.http.wire - http-outgoing-6 << "HTTP/1.1 404 Not Found[\r][\n]"
+08:59:51.658 [main] DEBUG org.apache.http.wire - http-outgoing-6 << "Date: Fri, 06 Sep 2019 00:59:56 GMT[\r][\n]"
+08:59:51.658 [main] DEBUG org.apache.http.wire - http-outgoing-6 << "Content-Length: 0[\r][\n]"
+08:59:51.658 [main] DEBUG org.apache.http.wire - http-outgoing-6 << "Connection: keep-alive[\r][\n]"
+08:59:51.658 [main] DEBUG org.apache.http.wire - http-outgoing-6 << "Server: Kestrel[\r][\n]"
+08:59:51.658 [main] DEBUG org.apache.http.wire - http-outgoing-6 << "[\r][\n]"
+08:59:51.658 [main] DEBUG org.apache.http.headers - http-outgoing-6 << HTTP/1.1 404 Not Found
+08:59:51.658 [main] DEBUG org.apache.http.headers - http-outgoing-6 << Date: Fri, 06 Sep 2019 00:59:56 GMT
+08:59:51.658 [main] DEBUG org.apache.http.headers - http-outgoing-6 << Content-Length: 0
+08:59:51.658 [main] DEBUG org.apache.http.headers - http-outgoing-6 << Connection: keep-alive
+08:59:51.658 [main] DEBUG org.apache.http.headers - http-outgoing-6 << Server: Kestrel
+08:59:51.658 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+08:59:51.658 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 6][route: {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80] can be kept alive indefinitely
+08:59:51.658 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 6][route: {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+]]></system-out>
+  </testcase>
+  <testcase name="getOilPrice" classname="zdh.caseuse.OilPrice" time="0.058"/>
+  <testcase name="getOilPrice" classname="zdh.caseuse.OilPrice" time="0.074"/>
+  <testcase name="getSpec" classname="zdh.caseuse.SelectSpec" time="0.077"/>
+  <testcase name="getTyre" classname="zdh.caseuse.SelectTyre" time="0.083">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at zdh.service.BaseProcessor.ExcuteCase(BaseProcessor.java:46)
+	at zdh.caseuse.SelectTyre.getTyre(SelectTyre.java:28)
+</failure>
+    <system-out><![CDATA[杈撳嚭datas[[Ljava.lang.Object;@560348e6
+08:59:51.860 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+08:59:51.860 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+08:59:51.860 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+08:59:51.860 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 10][route: {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+08:59:51.860 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80
+08:59:51.860 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to dc-basics-api-gw-fat.k8s.lunz.cn/47.99.15.3:80
+08:59:51.911 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.4.50:2184<->47.99.15.3:80
+08:59:51.911 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /api/v1/tyre/VQ0000000060 HTTP/1.1
+08:59:51.911 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+08:59:51.911 [main] DEBUG org.apache.http.headers - http-outgoing-10 >> GET /api/v1/tyre/VQ0000000060 HTTP/1.1
+08:59:51.911 [main] DEBUG org.apache.http.headers - http-outgoing-10 >> authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjcwRkYzQTE1QjcyNjczOEY0ODcyOTEyREZCNEVCMEZFQTQ3REUxRjEiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJjUDg2RmJjbWM0OUljcEV0LTA2d19xUjk0ZkUifQ.eyJuYmYiOjE1Njc3MzE1OTUsImV4cCI6MTU2Nzc2NzU5NSwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS1mYXQubHVuei5jbiIsImF1ZCI6WyJodHRwczovL2lkZW50aXR5LWZhdC5sdW56LmNuL3Jlc291cmNlcyIsImRjLWFydGljbGVzLWFwaSJdLCJjbGllbnRfaWQiOiJjbGllbnQxIiwic2NvcGUiOlsiZGMtYXJ0aWNsZXMtYXBpIl19.Yfx46j6SxLZy92xWmMpVCf6_n9bbBDdlPle6oYv0Ok1a4e3bPoD-DqNfnmRVzwfKHemnqDJzFtb-kuG9hT_o1PcEYfIim748nSannfGZoYn0Swh8yvUG6398XGr1Ex_IJ-NIoifaZ4GGab7IzUiNcbKuqGxKi3Mw97cdPsZAVdpTMUDubxaLG0yeZfLKOXumvgtx4w7CiWX5WrwsVoQ-1NZvP8-SYWRRU_-vRaMeN5BqOXjHZPEv4KSzpjRV5IJuVujc1WC4SDv6x6ARSVWvAtshgNmj-0awQmppAKaw3g_VYT73Ka1cmhDyq9IDSL9iM8otckDNMT4EVtJ6dR8opw
+08:59:51.911 [main] DEBUG org.apache.http.headers - http-outgoing-10 >> Host: dc-basics-api-gw-fat.k8s.lunz.cn
+08:59:51.911 [main] DEBUG org.apache.http.headers - http-outgoing-10 >> Connection: Keep-Alive
+08:59:51.911 [main] DEBUG org.apache.http.headers - http-outgoing-10 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)
+08:59:51.911 [main] DEBUG org.apache.http.headers - http-outgoing-10 >> Accept-Encoding: gzip,deflate
+08:59:51.911 [main] DEBUG org.apache.http.wire - http-outgoing-10 >> "GET /api/v1/tyre/VQ0000000060 HTTP/1.1[\r][\n]"
+08:59:51.911 [main] DEBUG org.apache.http.wire - http-outgoing-10 >> "authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjcwRkYzQTE1QjcyNjczOEY0ODcyOTEyREZCNEVCMEZFQTQ3REUxRjEiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJjUDg2RmJjbWM0OUljcEV0LTA2d19xUjk0ZkUifQ.eyJuYmYiOjE1Njc3MzE1OTUsImV4cCI6MTU2Nzc2NzU5NSwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS1mYXQubHVuei5jbiIsImF1ZCI6WyJodHRwczovL2lkZW50aXR5LWZhdC5sdW56LmNuL3Jlc291cmNlcyIsImRjLWFydGljbGVzLWFwaSJdLCJjbGllbnRfaWQiOiJjbGllbnQxIiwic2NvcGUiOlsiZGMtYXJ0aWNsZXMtYXBpIl19.Yfx46j6SxLZy92xWmMpVCf6_n9bbBDdlPle6oYv0Ok1a4e3bPoD-DqNfnmRVzwfKHemnqDJzFtb-kuG9hT_o1PcEYfIim748nSannfGZoYn0Swh8yvUG6398XGr1Ex_IJ-NIoifaZ4GGab7IzUiNcbKuqGxKi3Mw97cdPsZAVdpTMUDubxaLG0yeZfLKOXumvgtx4w7CiWX5WrwsVoQ-1NZvP8-SYWRRU_-vRaMeN5BqOXjHZPEv4KSzpjRV5IJuVujc1WC4SDv6x6ARSVWvAtshgNmj-0awQmppAKaw3g_VYT73Ka1cmhDyq9IDSL9iM8otckDNMT4EVtJ6dR8opw[\r][\n]"
+08:59:51.911 [main] DEBUG org.apache.http.wire - http-outgoing-10 >> "Host: dc-basics-api-gw-fat.k8s.lunz.cn[\r][\n]"
+08:59:51.911 [main] DEBUG org.apache.http.wire - http-outgoing-10 >> "Connection: Keep-Alive[\r][\n]"
+08:59:51.911 [main] DEBUG org.apache.http.wire - http-outgoing-10 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_121)[\r][\n]"
+08:59:51.911 [main] DEBUG org.apache.http.wire - http-outgoing-10 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+08:59:51.911 [main] DEBUG org.apache.http.wire - http-outgoing-10 >> "[\r][\n]"
+08:59:51.950 [main] DEBUG org.apache.http.wire - http-outgoing-10 << "HTTP/1.1 404 Not Found[\r][\n]"
+08:59:51.950 [main] DEBUG org.apache.http.wire - http-outgoing-10 << "Date: Fri, 06 Sep 2019 00:59:56 GMT[\r][\n]"
+08:59:51.951 [main] DEBUG org.apache.http.wire - http-outgoing-10 << "Content-Length: 0[\r][\n]"
+08:59:51.951 [main] DEBUG org.apache.http.wire - http-outgoing-10 << "Connection: keep-alive[\r][\n]"
+08:59:51.951 [main] DEBUG org.apache.http.wire - http-outgoing-10 << "Server: Kestrel[\r][\n]"
+08:59:51.951 [main] DEBUG org.apache.http.wire - http-outgoing-10 << "[\r][\n]"
+08:59:51.951 [main] DEBUG org.apache.http.headers - http-outgoing-10 << HTTP/1.1 404 Not Found
+08:59:51.951 [main] DEBUG org.apache.http.headers - http-outgoing-10 << Date: Fri, 06 Sep 2019 00:59:56 GMT
+08:59:51.951 [main] DEBUG org.apache.http.headers - http-outgoing-10 << Content-Length: 0
+08:59:51.951 [main] DEBUG org.apache.http.headers - http-outgoing-10 << Connection: keep-alive
+08:59:51.951 [main] DEBUG org.apache.http.headers - http-outgoing-10 << Server: Kestrel
+08:59:51.951 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+08:59:51.951 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 10][route: {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80] can be kept alive indefinitely
+08:59:51.951 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 10][route: {}->http://dc-basics-api-gw-fat.k8s.lunz.cn:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+]]></system-out>
+  </testcase>
+</testsuite>

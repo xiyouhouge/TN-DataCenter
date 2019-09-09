@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [futureloan]">
+  <listeners>
+    <listener class-name="zdh.config.ExtentTestNGIReporterListener"/>
+  </listeners>
+  <test name="login(failed)">
+    <classes>
+      <class name="zdh.caseuse.Depend1">
+        <methods>
+          <include name="getBrand"/>
+        </methods>
+      </class> <!-- zdh.caseuse.Depend1 -->
+      <class name="zdh.caseuse.SelectTyre">
+        <methods>
+          <include name="getTyre" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- zdh.caseuse.SelectTyre -->
+      <class name="zdh.service.BaseProcessor">
+        <methods>
+          <include name="batchWriteBackDatas"/>
+        </methods>
+      </class> <!-- zdh.service.BaseProcessor -->
+      <class name="zdh.caseuse.LoginCase">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- zdh.caseuse.LoginCase -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [futureloan] -->

@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="11" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[接口url：http://identity-fat.lunz.cn/connect/token]]>
+    </line>
+    <line>
+      <![CDATA[状态码：200]]>
+    </line>
+    <line>
+      <![CDATA[{"access_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjcwRkYzQTE1QjcyNjczOEY0ODcyOTEyREZCNEVCMEZFQTQ3REUxRjEiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJjUDg2RmJjbWM0OUljcEV0LTA2d19xUjk0ZkUifQ.eyJuYmYiOjE1Njc3MzE1OTUsImV4cCI6MTU2Nzc2NzU5NSwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS1mYXQubHVuei5jbiIsImF1ZCI6WyJodHRwczovL2lkZW50aXR5LWZhdC5sdW56LmNuL3Jlc291cmNlcyIsImRjLWFydGljbGVzLWFwaSJdLCJjbGllbnRfaWQiOiJjbGllbnQxIiwic2NvcGUiOlsiZGMtYXJ0aWNsZXMtYXBpIl19.Yfx46j6SxLZy92xWmMpVCf6_n9bbBDdlPle6oYv0Ok1a4e3bPoD-DqNfnmRVzwfKHemnqDJzFtb-kuG9hT_o1PcEYfIim748nSannfGZoYn0Swh8yvUG6398XGr1Ex_IJ-NIoifaZ4GGab7IzUiNcbKuqGxKi3Mw97cdPsZAVdpTMUDubxaLG0yeZfLKOXumvgtx4w7CiWX5WrwsVoQ-1NZvP8-SYWRRU_-vRaMeN5BqOXjHZPEv4KSzpjRV5IJuVujc1WC4SDv6x6ARSVWvAtshgNmj-0awQmppAKaw3g_VYT73Ka1cmhDyq9IDSL9iM8otckDNMT4EVtJ6dR8opw","expires_in":36000,"token_type":"Bearer"}]]>
+    </line>
+    <line>
+      <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/tyre/brand]]>
+    </line>
+    <line>
+      <![CDATA[状态码：200]]>
+    </line>
+    <line>
+      <![CDATA[[{"id":"VQ0000000001","tyreBrand":"奥特瑞普（AUTOGRIP）"},{"id":"VQ0000000045","tyreBrand":"艾尔吉（ILG）"},{"id":"VQ0000000035","tyreBrand":"艾威雷博（Available）"},{"id":"VQ0000000010","tyreBrand":"安达ENTDA"},{"id":"VQ0000000034","tyreBrand":"安睿驰PRIMUS"},{"id":"VQ0000000053","tyreBrand":"倍耐力（Pirelli）"},{"id":"VQ0000000074","tyreBrand":"博莱克（ROYAL BLACK）"},{"id":"VQ0000000071","tyreBrand":"百路驰BFGoodrich"},{"id":"VQ0000000047","tyreBrand":"车之骄"},{"id":"VQ0000000039","tyreBrand":"驰乐（luccini）"},{"id":"VQ0000000060","tyreBrand":"朝阳"},{"id":"VQ0000000020","tyreBrand":"车必应"},{"id":"VQ0000000050","tyreBrand":"邓禄普（DUNLOP）"},{"id":"VQ0000000026","tyreBrand":"道路侠"},{"id":"VQ0000000009","tyreBrand":"迪达DIDAR"},{"id":"VQ0000000076","tyreBrand":"东洋轮胎（TOYO TIRES）"},{"id":"VQ0000000105","tyreBrand":"风神（AEOLUS）"},{"id":"VQ0000000107","tyreBrand":"飞雳士"},{"id":"VQ0000000061","tyreBrand":"固铂（Cooper）"},{"id":"VQ0000000055","tyreBrand":"固特异（Goodyear）"},{"id":"VQ0000000068","tyreBrand":"回力（Warrior）"},{"id":"VQ0000000070","tyreBrand":"海福莱（HiFLy）"},{"id":"VQ0000000072","tyreBrand":"海大（Haida）"},{"id":"VQ0000000054","tyreBrand":"韩泰（Hankook）"},{"id":"VQ0000000003","tyreBrand":"好运GOODRIDE"},{"id":"VQ0000000015","tyreBrand":"金宇（JINYU TIRES）"},{"id":"VQ0000000058","tyreBrand":"锦湖轮胎（KUMHO）"},{"id":"VQ0000000033","tyreBrand":"京保养（Jbaoy）"},{"id":"VQ0000000052","tyreBrand":"佳通轮胎（Giti）"},{"id":"VQ0000000002","tyreBrand":"狂野大师（crossleader）"},{"id":"VQ0000000006","tyreBrand":"KOWELL"},{"id":"VQ0000000005","tyreBrand":"莱维特LANVIGATOR"},{"id":"VQ0000000100","tyreBrand":"玲珑"},{"id":"VQ0000000027","tyreBrand":"凌艺"},{"id":"VQ0000000011","tyreBrand":"雷登"},{"id":"VQ0000000049","tyreBrand":"马牌（Continental）"},{"id":"VQ0000000048","tyreBrand":"米其林（MICHELIN）"},{"id":"VQ0000000056","tyreBrand":"玛吉斯"},{"id":"VQ0000000099","tyreBrand":"诺记"},{"id":"VQ0000000069","tyreBrand":"南港（NANKANG）"},{"id":"VQ0000000063","tyreBrand":"耐克森（NEXEN）"},{"id":"VQ0000000004","tyreBrand":"欧米奥（OUMIAO）"},{"id":"VQ0000000051","tyreBrand":"普利司通（Bridgestone）"},{"id":"VQ0000000025","tyreBrand":"旁恩"},{"id":"VQ0000000013","tyreBrand":"全诺（TRAZANO）"},{"id":"VQ0000000024","tyreBrand":"瑞思通（LENSTON）"},{"id":"VQ0000000038","tyreBrand":"锐翊"},{"id":"VQ0000000064","tyreBrand":"赛轮"},{"id":"VQ0000000022","tyreBrand":"双星轮胎（DOUBLESTAR）"},{"id":"VQ0000000012","tyreBrand":"双王DOUBLE KING"},{"id":"VQ0000000073","tyreBrand":"双钱"},{"id":"VQ0000000059","tyreBrand":"三角（Triangle）"},{"id":"VQ0000000067","tyreBrand":"万力轮胎（WANLI TIRE）"},{"id":"VQ0000000007","tyreBrand":"万达宝通（BOTO）"},{"id":"VQ0000000075","tyreBrand":"维诺亚"},{"id":"VQ0000000028","tyreBrand":"威狮（WEST LAKE）"},{"id":"VQ0000000040","tyreBrand":"WORMS"},{"id":"VQ0000000057","tyreBrand":"优科豪马（yokohama）"},{"id":"VQ0000000062","tyreBrand":"正新"}]]]>
+    </line>
+    <line>
+      <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/trafficPoliceTeams/VI0000000069]]>
+    </line>
+    <line>
+      <![CDATA[状态码：404]]>
+    </line>
+    <line>
+      <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/rescuePhones/provinceCode/37]]>
+    </line>
+    <line>
+      <![CDATA[状态码：200]]>
+    </line>
+    <line>
+      <![CDATA[{"id":"VJ0000000009","provinceName":"山东","provinceCode":"37","trafficCall":"122","expresswayCall":"(0531)12122"}]]>
+    </line>
+    <line>
+      <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/rescuePhones/provinceCode/110]]>
+    </line>
+    <line>
+      <![CDATA[状态码：404]]>
+    </line>
+    <line>
+      <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/InsuranceCompanies]]>
+    </line>
+    <line>
+      <![CDATA[状态码：200]]>
+    </line>
+    <line>
+      <![CDATA[[{"id":"VG0000000026","name":"中国人民财产保险股份有限公司","abbrName":"中国人保","phoneNum":"95518","summary":"7×24小时"},{"id":"VG0000000006","name":"中国平安财产保险股份有限公司","abbrName":"平安保险","phoneNum":"95511","summary":"7×24小时"},{"id":"VG0000000042","name":"中国人寿财产保险股份有限公司","abbrName":"中国人寿保险","phoneNum":"95519","summary":"7×24小时"},{"id":"VG0000000007","name":"太平财产保险有限公司","abbrName":"中国太平保险","phoneNum":"95589","summary":"7×24小时"},{"id":"VG0000000017","name":"中国太平洋财产保险股份有限公司","abbrName":"太平洋保险","phoneNum":"95500","summary":"7×24小时"},{"id":"VG0000000003","name":"永安财产保险股份有限公司","abbrName":"永安保险","phoneNum":"95502","summary":"7×24小时"},{"id":"VG0000000001","name":"华安财产保险股份有限公司","abbrName":"华安保险","phoneNum":"95556","summary":"7×24小时"},{"id":"VG0000000034","name":"中国大地财产保险股份有限公司","abbrName":"大地保险","phoneNum":"95590","summary":"7×24小时"},{"id":"VG0000000010","name":"天平汽车保险股份有限公司","abbrName":"天平保险","phoneNum":"95550","summary":"7×24小时"},{"id":"VG0000000020","name":"中华联合财产保险股份有限公司","abbrName":"中华保险","phoneNum":"95585","summary":"7×24小时"},{"id":"VG0000000011","name":"天安财产保险股份有限公司","abbrName":"天安保险","phoneNum":"95505","summary":"7×24小时"},{"id":"VG0000000029","name":"民安财产保险有限公司","abbrName":"民安保险","phoneNum":"95506","summary":"7×24小时"},{"id":"VG0000000036","name":"大众保险股份有限公司","abbrName":"大众保险","phoneNum":"95507","summary":"7×24小时"},{"id":"VG0000000012","name":"三星财产保险（中国）有限公司","abbrName":"三星财产保险","phoneNum":"4008333000","summary":"7×24小时"},{"id":"VG0000000014","name":"中银保险有限公司","abbrName":"中银保险","phoneNum":"4006995566","summary":"7×24小时"},{"id":"VG0000000031","name":"利宝保险有限公司","abbrName":"利宝保险","phoneNum":"4008882008","summary":"7×24小时"},{"id":"VG0000000023","name":"中航安盟财产保险有限公司","abbrName":"中航安盟保险","phoneNum":"4008868199","summary":"7×24小时"},{"id":"VG0000000004","name":"永诚财产保险股份有限公司","abbrName":"永诚保险","phoneNum":"95552","summary":"7×24小时"},{"id":"VG0000000021","name":"阳光财产保险股份有限公司","abbrName":"阳光保险","phoneNum":"95510","summary":"7×24小时"},{"id":"VG0000000032","name":"都邦财产保险股份有限公司","abbrName":"都邦保险","phoneNum":"4008895586","summary":"7×24小时"},{"id":"VG0000000033","name":"渤海财产保险股份有限公司","abbrName":"渤海保险","phoneNum":"4006116666","summary":"7×24小时"},{"id":"VG0000000025","name":"华农财产保险股份有限公司","abbrName":"华农保险","phoneNum":"4000100000","summary":"7×24小时"},{"id":"VG0000000015","name":"安诚财产保险股份有限公司","abbrName":"安诚保险","phoneNum":"4000500000","summary":"7×24小时"},{"id":"VG0000000044","name":"现代财产保险（中国）有限公司","abbrName":"现代保险","phoneNum":"4006080808","summary":"7×24小时"},{"id":"VG0000000005","name":"长安责任保险股份有限公司","abbrName":"长安保险","phoneNum":"95592","summary":"7×24小时"},{"id":"VG0000000002","name":"中意财产保险有限公司","abbrName":"中意保险","phoneNum":"4006002700","summary":"7×24小时"},{"id":"VG0000000008","name":"国元农业保险股份有限公司","abbrName":"国元农业","phoneNum":"96999","summary":"7×24小时"},{"id":"VG0000000024","name":"鼎和财产保险股份有限公司","abbrName":"鼎和保险","phoneNum":"4008888136","summary":"7×24小时"},{"id":"VG0000000039","name":"中煤财产保险股份有限公司","abbrName":"中煤保险","phoneNum":"4006536888","summary":"7×24小时"},{"id":"VG0000000028","name":"国泰财产保险有限责任公司","abbrName":"国泰保险","phoneNum":"4008202288","summary":"7×24小时"},{"id":"VG0000000009","name":"英大泰和财产保险股份有限公司","abbrName":"英大泰和保险","phoneNum":"4008895598","summary":"7×24小时"},{"id":"VG0000000013","name":"紫金财产保险股份有限公司","abbrName":"紫金保险","phoneNum":"4008280018","summary":"7×24小时"},{"id":"VG0000000037","name":"浙商财产保险股份有限公司","abbrName":"浙商保险","phoneNum":"4008666777","summary":"7×24小时"},{"id":"VG0000000030","name":"信达财产保险股份有限公司","abbrName":"信达保险","phoneNum":"4008667788","summary":"7×24小时"},{"id":"VG0000000038","name":"富邦财产保险有限公司","abbrName":"富邦保险","phoneNum":"4008080000","summary":"7×24小时"},{"id":"VG0000000019","name":"泰山财产保险股份有限公司","abbrName":"泰山保险","phoneNum":"4006077777","summary":"7×24小时"},{"id":"VG0000000016","name":"众诚汽车保险股份有限公司","abbrName":"众诚保险","phoneNum":"4008600600","summary":"7×24小时"},{"id":"VG0000000041","name":"锦泰财产保险股份有限公司","abbrName":"锦泰保险","phoneNum":"4008666555","summary":"7×24小时"},{"id":"VG0000000022","name":"华泰财产保险有限公司","abbrName":"华泰保险","phoneNum":"4006095509","summary":"7×24小时"},{"id":"VG0000000043","name":"诚泰财产保险股份有限公司","abbrName":"诚泰保险","phoneNum":"4006222888","summary":"7×24小时"},{"id":"VG0000000027","name":"富德财产保险股份有限公司","abbrName":"富徳保险","phoneNum":"4006695535","summary":"7×24小时"},{"id":"VG0000000058","name":"南岸","abbrName":"那几","phoneNum":null,"summary":null},{"id":"VG0000000060","name":"asdfg","abbrName":"sdsad","phoneNum":null,"summary":null}]]]>
+    </line>
+    <line>
+      <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/fuelPrice/]]>
+    </line>
+    <line>
+      <![CDATA[状态码：404]]>
+    </line>
+    <line>
+      <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/fuelPrice/qqqq]]>
+    </line>
+    <line>
+      <![CDATA[状态码：200]]>
+    </line>
+    <line>
+      <![CDATA[[]]]>
+    </line>
+    <line>
+      <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/fuelPrice/北京]]>
+    </line>
+    <line>
+      <![CDATA[状态码：200]]>
+    </line>
+    <line>
+      <![CDATA[[{"id":"VP0000000081","cityName":"北京","fuelName":"京89号","price":5.58},{"id":"VP0000000107","cityName":"北京","fuelName":"京92号","price":5.96},{"id":"VP0000000024","cityName":"北京","fuelName":"京95号","price":6.34},{"id":"VP0000000071","cityName":"北京","fuelName":"0#","price":5.58}]]]>
+    </line>
+    <line>
+      <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/tyre/brand/VQ0000000053/spec]]>
+    </line>
+    <line>
+      <![CDATA[状态码：200]]>
+    </line>
+    <line>
+      <![CDATA[[{"id":"VO0000000238","tyreSpec":"175/65R14"},{"id":"VO0000000239","tyreSpec":"175/65R15"},{"id":"VO0000000240","tyreSpec":"185/60R14"},{"id":"VO0000000241","tyreSpec":"185/60R15"},{"id":"VO0000000242","tyreSpec":"185/65R14"},{"id":"VO0000000243","tyreSpec":"185/65R15"},{"id":"VO0000000244","tyreSpec":"195/55R15"},{"id":"VO0000000245","tyreSpec":"195/55R16"},{"id":"VO0000000246","tyreSpec":"195/60R16"},{"id":"VO0000000247","tyreSpec":"195/65R15"},{"id":"VO0000000248","tyreSpec":"205/40R18"},{"id":"VO0000000249","tyreSpec":"205/45R17"},{"id":"VO0000000250","tyreSpec":"205/50R17"},{"id":"VO0000000251","tyreSpec":"205/50R17"},{"id":"VO0000000252","tyreSpec":"205/55R16"},{"id":"VO0000000253","tyreSpec":"205/55R16"},{"id":"VO0000000254","tyreSpec":"205/55R16"},{"id":"VO0000000255","tyreSpec":"205/60R16"},{"id":"VO0000000256","tyreSpec":"205/60R16"},{"id":"VO0000000257","tyreSpec":"215/45R17"},{"id":"VO0000000258","tyreSpec":"215/50R17"},{"id":"VO0000000259","tyreSpec":"215/55R16"},{"id":"VO0000000260","tyreSpec":"215/55R17"},{"id":"VO0000000261","tyreSpec":"215/55R17"},{"id":"VO0000000262","tyreSpec":"215/60R16"},{"id":"VO0000000263","tyreSpec":"215/60R16"},{"id":"VO0000000264","tyreSpec":"215/60R17"},{"id":"VO0000000265","tyreSpec":"215/65R16"},{"id":"VO0000000266","tyreSpec":"225/40R18"},{"id":"VO0000000267","tyreSpec":"225/40R18"},{"id":"VO0000000268","tyreSpec":"225/40R18"},{"id":"VO0000000269","tyreSpec":"225/40R19"},{"id":"VO0000000270","tyreSpec":"225/45R17"},{"id":"VO0000000271","tyreSpec":"225/45R17"},{"id":"VO0000000272","tyreSpec":"225/45R17"},{"id":"VO0000000273","tyreSpec":"225/45R18"},{"id":"VO0000000274","tyreSpec":"225/45R19"},{"id":"VO0000000275","tyreSpec":"225/50R16"},{"id":"VO0000000276","tyreSpec":"225/50R17"},{"id":"VO0000000277","tyreSpec":"225/50R17"},{"id":"VO0000000278","tyreSpec":"225/50R17"},{"id":"VO0000000279","tyreSpec":"225/50R17"},{"id":"VO0000000280","tyreSpec":"225/50R17"},{"id":"VO0000000281","tyreSpec":"225/50R17"},{"id":"VO0000000282","tyreSpec":"225/50R18"},{"id":"VO0000000283","tyreSpec":"225/55R16"},{"id":"VO0000000284","tyreSpec":"225/55R16"},{"id":"VO0000000285","tyreSpec":"225/55R16"},{"id":"VO0000000286","tyreSpec":"225/55R16"},{"id":"VO0000000287","tyreSpec":"225/55R17"},{"id":"VO0000000288","tyreSpec":"225/55R17"},{"id":"VO0000000289","tyreSpec":"225/55R17"},{"id":"VO0000000290","tyreSpec":"225/55R17"},{"id":"VO0000000291","tyreSpec":"225/60R17"},{"id":"VO0000000292","tyreSpec":"225/65R17"},{"id":"VO0000000293","tyreSpec":"235/40R18"},{"id":"VO0000000294","tyreSpec":"235/40R19"},{"id":"VO0000000295","tyreSpec":"235/45R17"},{"id":"VO0000000296","tyreSpec":"235/45R18"},{"id":"VO0000000297","tyreSpec":"235/50R18"},{"id":"VO0000000298","tyreSpec":"235/50R18"},{"id":"VO0000000299","tyreSpec":"235/50R18"},{"id":"VO0000000300","tyreSpec":"235/50R18"},{"id":"VO0000000301","tyreSpec":"235/50R19"},{"id":"VO0000000302","tyreSpec":"235/55R17"},{"id":"VO0000000303","tyreSpec":"235/55R17"},{"id":"VO0000000304","tyreSpec":"235/55R17"},{"id":"VO0000000305","tyreSpec":"235/55R18"},{"id":"VO0000000306","tyreSpec":"235/55R18"},{"id":"VO0000000307","tyreSpec":"235/55R18"},{"id":"VO0000000308","tyreSpec":"235/55R19"},{"id":"VO0000000309","tyreSpec":"235/55R19"},{"id":"VO0000000310","tyreSpec":"235/55R19"},{"id":"VO0000000311","tyreSpec":"235/55R19"},{"id":"VO0000000312","tyreSpec":"235/60R18"},{"id":"VO0000000313","tyreSpec":"235/60R18"},{"id":"VO0000000314","tyreSpec":"235/60R18"},{"id":"VO0000000315","tyreSpec":"235/65R17"},{"id":"VO0000000316","tyreSpec":"235/70R15"},{"id":"VO0000000317","tyreSpec":"245/40R17"},{"id":"VO0000000318","tyreSpec":"245/40R18"},{"id":"VO0000000319","tyreSpec":"245/40R18"},{"id":"VO0000000320","tyreSpec":"245/40R18"},{"id":"VO0000000321","tyreSpec":"245/40R19"},{"id":"VO0000000322","tyreSpec":"245/40R19"},{"id":"VO0000000323","tyreSpec":"245/40R20"},{"id":"VO0000000324","tyreSpec":"245/45R17"},{"id":"VO0000000325","tyreSpec":"245/45R18"},{"id":"VO0000000326","tyreSpec":"245/45R18"},{"id":"VO0000000327","tyreSpec":"245/45R18"},{"id":"VO0000000328","tyreSpec":"245/45R18"},{"id":"VO0000000329","tyreSpec":"245/45R18"},{"id":"VO0000000330","tyreSpec":"245/45R19"},{"id":"VO0000000331","tyreSpec":"245/45R19"},{"id":"VO0000000332","tyreSpec":"245/45R20"},{"id":"VO0000000333","tyreSpec":"245/50R18"},{"id":"VO0000000334","tyreSpec":"245/50R18"},{"id":"VO0000000335","tyreSpec":"245/50R18"},{"id":"VO0000000336","tyreSpec":"245/55R19"},{"id":"VO0000000337","tyreSpec":"245/60R18"},{"id":"VO0000000338","tyreSpec":"245/70R16"},{"id":"VO0000000339","tyreSpec":"255/40R18"},{"id":"VO0000000340","tyreSpec":"255/40R18"},{"id":"VO0000000341","tyreSpec":"255/40R19"},{"id":"VO0000000342","tyreSpec":"255/40R19"},{"id":"VO0000000343","tyreSpec":"255/40R20"},{"id":"VO0000000344","tyreSpec":"255/40R20"},{"id":"VO0000000345","tyreSpec":"255/40R21"},{"id":"VO0000000346","tyreSpec":"255/40R21"},{"id":"VO0000000347","tyreSpec":"255/40R21"},{"id":"VO0000000348","tyreSpec":"255/40R21"},{"id":"VO0000000349","tyreSpec":"255/40R21"},{"id":"VO0000000350","tyreSpec":"255/40R22"},{"id":"VO0000000351","tyreSpec":"255/45R18"},{"id":"VO0000000352","tyreSpec":"255/45R18"},{"id":"VO0000000353","tyreSpec":"255/45R19"},{"id":"VO0000000354","tyreSpec":"255/45R19"},{"id":"VO0000000355","tyreSpec":"255/50R19"},{"id":"VO0000000356","tyreSpec":"255/50R19"},{"id":"VO0000000357","tyreSpec":"255/55R18"},{"id":"VO0000000358","tyreSpec":"255/55R19"},{"id":"VO0000000359","tyreSpec":"255/55R20"},{"id":"VO0000000360","tyreSpec":"255/60R17"},{"id":"VO0000000361","tyreSpec":"255/60R17"},{"id":"VO0000000362","tyreSpec":"255/60R18"},{"id":"VO0000000363","tyreSpec":"265/40R21"},{"id":"VO0000000364","tyreSpec":"265/40R21"},{"id":"VO0000000365","tyreSpec":"265/45R18"},{"id":"VO0000000366","tyreSpec":"265/50R19"},{"id":"VO0000000367","tyreSpec":"265/50R19"},{"id":"VO0000000368","tyreSpec":"265/50R19"},{"id":"VO0000000369","tyreSpec":"265/50R19"},{"id":"VO0000000370","tyreSpec":"265/50R19"},{"id":"VO0000000371","tyreSpec":"265/60R18"},{"id":"VO0000000372","tyreSpec":"265/65R17"},{"id":"VO0000000373","tyreSpec":"275/40R19"},{"id":"VO0000000374","tyreSpec":"275/40R19"},{"id":"VO0000000375","tyreSpec":"275/40R22"},{"id":"VO0000000376","tyreSpec":"275/45R19"},{"id":"VO0000000377","tyreSpec":"275/45R21"},{"id":"VO0000000378","tyreSpec":"275/45ZR2"},{"id":"VO0000000379","tyreSpec":"275/50R20"},{"id":"VO0000000380","tyreSpec":"275/50R20"},{"id":"VO0000000381","tyreSpec":"275/65R17"},{"id":"VO0000000382","tyreSpec":"275/65R17"},{"id":"VO0000000383","tyreSpec":"275/65R17"},{"id":"VO0000000384","tyreSpec":"275/65R17"},{"id":"VO0000000385","tyreSpec":"275/65R17"},{"id":"VO0000000386","tyreSpec":"275/70R16"},{"id":"VO0000000387","tyreSpec":"285/45R21"},{"id":"VO0000000388","tyreSpec":"285/45R21"},{"id":"VO0000000389","tyreSpec":"285/45R21"},{"id":"VO0000000390","tyreSpec":"285/45R21"},{"id":"VO0000000391","tyreSpec":"285/45R21"},{"id":"VO0000000392","tyreSpec":"285/60R18"}]]]>
+    </line>
+    <line>
+      <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/tyre/VQ0000000060]]>
+    </line>
+    <line>
+      <![CDATA[状态码：404]]>
+    </line>
+  </reporter-output>
+  <suite name="DataCenter" duration-ms="1929" started-at="2019-09-06T00:59:50Z" finished-at="2019-09-06T00:59:51Z">
+    <groups>
+      <group name="selectBrand">
+        <method signature="Depend1.getBrand(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:zdh.caseuse.Depend1@2ed94a8b]" name="getBrand" class="zdh.caseuse.Depend1"/>
+      </group> <!-- selectBrand -->
+      <group name="login">
+        <method signature="LoginCase.login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:zdh.caseuse.LoginCase@73f792cf]" name="login" class="zdh.caseuse.LoginCase"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="login" duration-ms="1929" started-at="2019-09-06T00:59:50Z" finished-at="2019-09-06T00:59:51Z">
+      <class name="zdh.caseuse.InsuranceCompany">
+        <test-method status="PASS" signature="getInsurance(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:zdh.caseuse.InsuranceCompany@64616ca2]" name="getInsurance" duration-ms="60" depends-on-groups="login" started-at="2019-09-06T08:59:51Z" data-provider="base1" finished-at="2019-09-06T08:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[获取保险公司不分页列表（保险公司）]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[｛code:"200"｝]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/InsuranceCompanies]]>
+            </line>
+            <line>
+              <![CDATA[状态码：200]]>
+            </line>
+            <line>
+              <![CDATA[[{"id":"VG0000000026","name":"中国人民财产保险股份有限公司","abbrName":"中国人保","phoneNum":"95518","summary":"7×24小时"},{"id":"VG0000000006","name":"中国平安财产保险股份有限公司","abbrName":"平安保险","phoneNum":"95511","summary":"7×24小时"},{"id":"VG0000000042","name":"中国人寿财产保险股份有限公司","abbrName":"中国人寿保险","phoneNum":"95519","summary":"7×24小时"},{"id":"VG0000000007","name":"太平财产保险有限公司","abbrName":"中国太平保险","phoneNum":"95589","summary":"7×24小时"},{"id":"VG0000000017","name":"中国太平洋财产保险股份有限公司","abbrName":"太平洋保险","phoneNum":"95500","summary":"7×24小时"},{"id":"VG0000000003","name":"永安财产保险股份有限公司","abbrName":"永安保险","phoneNum":"95502","summary":"7×24小时"},{"id":"VG0000000001","name":"华安财产保险股份有限公司","abbrName":"华安保险","phoneNum":"95556","summary":"7×24小时"},{"id":"VG0000000034","name":"中国大地财产保险股份有限公司","abbrName":"大地保险","phoneNum":"95590","summary":"7×24小时"},{"id":"VG0000000010","name":"天平汽车保险股份有限公司","abbrName":"天平保险","phoneNum":"95550","summary":"7×24小时"},{"id":"VG0000000020","name":"中华联合财产保险股份有限公司","abbrName":"中华保险","phoneNum":"95585","summary":"7×24小时"},{"id":"VG0000000011","name":"天安财产保险股份有限公司","abbrName":"天安保险","phoneNum":"95505","summary":"7×24小时"},{"id":"VG0000000029","name":"民安财产保险有限公司","abbrName":"民安保险","phoneNum":"95506","summary":"7×24小时"},{"id":"VG0000000036","name":"大众保险股份有限公司","abbrName":"大众保险","phoneNum":"95507","summary":"7×24小时"},{"id":"VG0000000012","name":"三星财产保险（中国）有限公司","abbrName":"三星财产保险","phoneNum":"4008333000","summary":"7×24小时"},{"id":"VG0000000014","name":"中银保险有限公司","abbrName":"中银保险","phoneNum":"4006995566","summary":"7×24小时"},{"id":"VG0000000031","name":"利宝保险有限公司","abbrName":"利宝保险","phoneNum":"4008882008","summary":"7×24小时"},{"id":"VG0000000023","name":"中航安盟财产保险有限公司","abbrName":"中航安盟保险","phoneNum":"4008868199","summary":"7×24小时"},{"id":"VG0000000004","name":"永诚财产保险股份有限公司","abbrName":"永诚保险","phoneNum":"95552","summary":"7×24小时"},{"id":"VG0000000021","name":"阳光财产保险股份有限公司","abbrName":"阳光保险","phoneNum":"95510","summary":"7×24小时"},{"id":"VG0000000032","name":"都邦财产保险股份有限公司","abbrName":"都邦保险","phoneNum":"4008895586","summary":"7×24小时"},{"id":"VG0000000033","name":"渤海财产保险股份有限公司","abbrName":"渤海保险","phoneNum":"4006116666","summary":"7×24小时"},{"id":"VG0000000025","name":"华农财产保险股份有限公司","abbrName":"华农保险","phoneNum":"4000100000","summary":"7×24小时"},{"id":"VG0000000015","name":"安诚财产保险股份有限公司","abbrName":"安诚保险","phoneNum":"4000500000","summary":"7×24小时"},{"id":"VG0000000044","name":"现代财产保险（中国）有限公司","abbrName":"现代保险","phoneNum":"4006080808","summary":"7×24小时"},{"id":"VG0000000005","name":"长安责任保险股份有限公司","abbrName":"长安保险","phoneNum":"95592","summary":"7×24小时"},{"id":"VG0000000002","name":"中意财产保险有限公司","abbrName":"中意保险","phoneNum":"4006002700","summary":"7×24小时"},{"id":"VG0000000008","name":"国元农业保险股份有限公司","abbrName":"国元农业","phoneNum":"96999","summary":"7×24小时"},{"id":"VG0000000024","name":"鼎和财产保险股份有限公司","abbrName":"鼎和保险","phoneNum":"4008888136","summary":"7×24小时"},{"id":"VG0000000039","name":"中煤财产保险股份有限公司","abbrName":"中煤保险","phoneNum":"4006536888","summary":"7×24小时"},{"id":"VG0000000028","name":"国泰财产保险有限责任公司","abbrName":"国泰保险","phoneNum":"4008202288","summary":"7×24小时"},{"id":"VG0000000009","name":"英大泰和财产保险股份有限公司","abbrName":"英大泰和保险","phoneNum":"4008895598","summary":"7×24小时"},{"id":"VG0000000013","name":"紫金财产保险股份有限公司","abbrName":"紫金保险","phoneNum":"4008280018","summary":"7×24小时"},{"id":"VG0000000037","name":"浙商财产保险股份有限公司","abbrName":"浙商保险","phoneNum":"4008666777","summary":"7×24小时"},{"id":"VG0000000030","name":"信达财产保险股份有限公司","abbrName":"信达保险","phoneNum":"4008667788","summary":"7×24小时"},{"id":"VG0000000038","name":"富邦财产保险有限公司","abbrName":"富邦保险","phoneNum":"4008080000","summary":"7×24小时"},{"id":"VG0000000019","name":"泰山财产保险股份有限公司","abbrName":"泰山保险","phoneNum":"4006077777","summary":"7×24小时"},{"id":"VG0000000016","name":"众诚汽车保险股份有限公司","abbrName":"众诚保险","phoneNum":"4008600600","summary":"7×24小时"},{"id":"VG0000000041","name":"锦泰财产保险股份有限公司","abbrName":"锦泰保险","phoneNum":"4008666555","summary":"7×24小时"},{"id":"VG0000000022","name":"华泰财产保险有限公司","abbrName":"华泰保险","phoneNum":"4006095509","summary":"7×24小时"},{"id":"VG0000000043","name":"诚泰财产保险股份有限公司","abbrName":"诚泰保险","phoneNum":"4006222888","summary":"7×24小时"},{"id":"VG0000000027","name":"富德财产保险股份有限公司","abbrName":"富徳保险","phoneNum":"4006695535","summary":"7×24小时"},{"id":"VG0000000058","name":"南岸","abbrName":"那几","phoneNum":null,"summary":null},{"id":"VG0000000060","name":"asdfg","abbrName":"sdsad","phoneNum":null,"summary":null}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getInsurance -->
+      </class> <!-- zdh.caseuse.InsuranceCompany -->
+      <class name="zdh.service.BaseProcessor">
+        <test-method status="PASS" signature="batchWriteBackDatas()[pri:0, instance:zdh.service.BaseProcessor@17550481]" name="batchWriteBackDatas" is-config="true" duration-ms="175" started-at="2019-09-06T08:59:51Z" finished-at="2019-09-06T08:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- batchWriteBackDatas -->
+      </class> <!-- zdh.service.BaseProcessor -->
+      <class name="zdh.caseuse.GetPhone">
+        <test-method status="PASS" signature="getPhone(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:zdh.caseuse.GetPhone@3b81a1bc]" name="getPhone" duration-ms="68" depends-on-groups="login" started-at="2019-09-06T08:59:51Z" data-provider="base1" finished-at="2019-09-06T08:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[根据省份编码获取救援电话信息（救援电话）【存在的省份编码】]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{code:"37"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[｛code:"200"｝]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/rescuePhones/provinceCode/37]]>
+            </line>
+            <line>
+              <![CDATA[状态码：200]]>
+            </line>
+            <line>
+              <![CDATA[{"id":"VJ0000000009","provinceName":"山东","provinceCode":"37","trafficCall":"122","expresswayCall":"(0531)12122"}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getPhone -->
+        <test-method status="FAIL" signature="getPhone(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:zdh.caseuse.GetPhone@3b81a1bc]" name="getPhone" duration-ms="58" depends-on-groups="login" started-at="2019-09-06T08:59:51Z" data-provider="base1" finished-at="2019-09-06T08:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[根据省份编码获取救援电话信息（救援电话）【不存在的省份编码】]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{code:"110"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[｛code:"200"｝]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at zdh.service.BaseProcessor.ExcuteCase(BaseProcessor.java:46)
+	at zdh.caseuse.GetPhone.getPhone(GetPhone.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/rescuePhones/provinceCode/110]]>
+            </line>
+            <line>
+              <![CDATA[状态码：404]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getPhone -->
+      </class> <!-- zdh.caseuse.GetPhone -->
+      <class name="zdh.caseuse.OilPrice">
+        <test-method status="FAIL" signature="getOilPrice(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:zdh.caseuse.OilPrice@13fee20c]" name="getOilPrice" duration-ms="63" depends-on-groups="login" started-at="2019-09-06T08:59:51Z" data-provider="base1" finished-at="2019-09-06T08:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[根据城市名称 获取各种型号油品价格（油价）【参数为空】]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{cityName:""}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[｛code:"200"｝]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at zdh.service.BaseProcessor.ExcuteCase(BaseProcessor.java:46)
+	at zdh.caseuse.OilPrice.getOilPrice(OilPrice.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/fuelPrice/]]>
+            </line>
+            <line>
+              <![CDATA[状态码：404]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getOilPrice -->
+        <test-method status="PASS" signature="getOilPrice(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:zdh.caseuse.OilPrice@13fee20c]" name="getOilPrice" duration-ms="59" depends-on-groups="login" started-at="2019-09-06T08:59:51Z" data-provider="base1" finished-at="2019-09-06T08:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[根据城市名称 获取各种型号油品价格（油价）【参数不存在】]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{cityName:"qqqq"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[｛code:"200"｝]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/fuelPrice/qqqq]]>
+            </line>
+            <line>
+              <![CDATA[状态码：200]]>
+            </line>
+            <line>
+              <![CDATA[[]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getOilPrice -->
+        <test-method status="PASS" signature="getOilPrice(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:zdh.caseuse.OilPrice@13fee20c]" name="getOilPrice" duration-ms="65" depends-on-groups="login" started-at="2019-09-06T08:59:51Z" data-provider="base1" finished-at="2019-09-06T08:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[根据城市名称 获取各种型号油品价格（油价）【参数存在】]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{cityName:"北京"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[｛code:"200"｝]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/fuelPrice/北京]]>
+            </line>
+            <line>
+              <![CDATA[状态码：200]]>
+            </line>
+            <line>
+              <![CDATA[[{"id":"VP0000000081","cityName":"北京","fuelName":"京89号","price":5.58},{"id":"VP0000000107","cityName":"北京","fuelName":"京92号","price":5.96},{"id":"VP0000000024","cityName":"北京","fuelName":"京95号","price":6.34},{"id":"VP0000000071","cityName":"北京","fuelName":"0#","price":5.58}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getOilPrice -->
+      </class> <!-- zdh.caseuse.OilPrice -->
+      <class name="zdh.caseuse.SelectSpec">
+        <test-method status="PASS" signature="getSpec(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:zdh.caseuse.SelectSpec@dfd3711]" name="getSpec" duration-ms="72" depends-on-groups="selectBrand, login" started-at="2019-09-06T08:59:51Z" data-provider="base2" finished-at="2019-09-06T08:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[获取轮胎规格列表（轮胎）]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{id:"${id}"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[｛code:"200"｝]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/tyre/brand/VQ0000000053/spec]]>
+            </line>
+            <line>
+              <![CDATA[状态码：200]]>
+            </line>
+            <line>
+              <![CDATA[[{"id":"VO0000000238","tyreSpec":"175/65R14"},{"id":"VO0000000239","tyreSpec":"175/65R15"},{"id":"VO0000000240","tyreSpec":"185/60R14"},{"id":"VO0000000241","tyreSpec":"185/60R15"},{"id":"VO0000000242","tyreSpec":"185/65R14"},{"id":"VO0000000243","tyreSpec":"185/65R15"},{"id":"VO0000000244","tyreSpec":"195/55R15"},{"id":"VO0000000245","tyreSpec":"195/55R16"},{"id":"VO0000000246","tyreSpec":"195/60R16"},{"id":"VO0000000247","tyreSpec":"195/65R15"},{"id":"VO0000000248","tyreSpec":"205/40R18"},{"id":"VO0000000249","tyreSpec":"205/45R17"},{"id":"VO0000000250","tyreSpec":"205/50R17"},{"id":"VO0000000251","tyreSpec":"205/50R17"},{"id":"VO0000000252","tyreSpec":"205/55R16"},{"id":"VO0000000253","tyreSpec":"205/55R16"},{"id":"VO0000000254","tyreSpec":"205/55R16"},{"id":"VO0000000255","tyreSpec":"205/60R16"},{"id":"VO0000000256","tyreSpec":"205/60R16"},{"id":"VO0000000257","tyreSpec":"215/45R17"},{"id":"VO0000000258","tyreSpec":"215/50R17"},{"id":"VO0000000259","tyreSpec":"215/55R16"},{"id":"VO0000000260","tyreSpec":"215/55R17"},{"id":"VO0000000261","tyreSpec":"215/55R17"},{"id":"VO0000000262","tyreSpec":"215/60R16"},{"id":"VO0000000263","tyreSpec":"215/60R16"},{"id":"VO0000000264","tyreSpec":"215/60R17"},{"id":"VO0000000265","tyreSpec":"215/65R16"},{"id":"VO0000000266","tyreSpec":"225/40R18"},{"id":"VO0000000267","tyreSpec":"225/40R18"},{"id":"VO0000000268","tyreSpec":"225/40R18"},{"id":"VO0000000269","tyreSpec":"225/40R19"},{"id":"VO0000000270","tyreSpec":"225/45R17"},{"id":"VO0000000271","tyreSpec":"225/45R17"},{"id":"VO0000000272","tyreSpec":"225/45R17"},{"id":"VO0000000273","tyreSpec":"225/45R18"},{"id":"VO0000000274","tyreSpec":"225/45R19"},{"id":"VO0000000275","tyreSpec":"225/50R16"},{"id":"VO0000000276","tyreSpec":"225/50R17"},{"id":"VO0000000277","tyreSpec":"225/50R17"},{"id":"VO0000000278","tyreSpec":"225/50R17"},{"id":"VO0000000279","tyreSpec":"225/50R17"},{"id":"VO0000000280","tyreSpec":"225/50R17"},{"id":"VO0000000281","tyreSpec":"225/50R17"},{"id":"VO0000000282","tyreSpec":"225/50R18"},{"id":"VO0000000283","tyreSpec":"225/55R16"},{"id":"VO0000000284","tyreSpec":"225/55R16"},{"id":"VO0000000285","tyreSpec":"225/55R16"},{"id":"VO0000000286","tyreSpec":"225/55R16"},{"id":"VO0000000287","tyreSpec":"225/55R17"},{"id":"VO0000000288","tyreSpec":"225/55R17"},{"id":"VO0000000289","tyreSpec":"225/55R17"},{"id":"VO0000000290","tyreSpec":"225/55R17"},{"id":"VO0000000291","tyreSpec":"225/60R17"},{"id":"VO0000000292","tyreSpec":"225/65R17"},{"id":"VO0000000293","tyreSpec":"235/40R18"},{"id":"VO0000000294","tyreSpec":"235/40R19"},{"id":"VO0000000295","tyreSpec":"235/45R17"},{"id":"VO0000000296","tyreSpec":"235/45R18"},{"id":"VO0000000297","tyreSpec":"235/50R18"},{"id":"VO0000000298","tyreSpec":"235/50R18"},{"id":"VO0000000299","tyreSpec":"235/50R18"},{"id":"VO0000000300","tyreSpec":"235/50R18"},{"id":"VO0000000301","tyreSpec":"235/50R19"},{"id":"VO0000000302","tyreSpec":"235/55R17"},{"id":"VO0000000303","tyreSpec":"235/55R17"},{"id":"VO0000000304","tyreSpec":"235/55R17"},{"id":"VO0000000305","tyreSpec":"235/55R18"},{"id":"VO0000000306","tyreSpec":"235/55R18"},{"id":"VO0000000307","tyreSpec":"235/55R18"},{"id":"VO0000000308","tyreSpec":"235/55R19"},{"id":"VO0000000309","tyreSpec":"235/55R19"},{"id":"VO0000000310","tyreSpec":"235/55R19"},{"id":"VO0000000311","tyreSpec":"235/55R19"},{"id":"VO0000000312","tyreSpec":"235/60R18"},{"id":"VO0000000313","tyreSpec":"235/60R18"},{"id":"VO0000000314","tyreSpec":"235/60R18"},{"id":"VO0000000315","tyreSpec":"235/65R17"},{"id":"VO0000000316","tyreSpec":"235/70R15"},{"id":"VO0000000317","tyreSpec":"245/40R17"},{"id":"VO0000000318","tyreSpec":"245/40R18"},{"id":"VO0000000319","tyreSpec":"245/40R18"},{"id":"VO0000000320","tyreSpec":"245/40R18"},{"id":"VO0000000321","tyreSpec":"245/40R19"},{"id":"VO0000000322","tyreSpec":"245/40R19"},{"id":"VO0000000323","tyreSpec":"245/40R20"},{"id":"VO0000000324","tyreSpec":"245/45R17"},{"id":"VO0000000325","tyreSpec":"245/45R18"},{"id":"VO0000000326","tyreSpec":"245/45R18"},{"id":"VO0000000327","tyreSpec":"245/45R18"},{"id":"VO0000000328","tyreSpec":"245/45R18"},{"id":"VO0000000329","tyreSpec":"245/45R18"},{"id":"VO0000000330","tyreSpec":"245/45R19"},{"id":"VO0000000331","tyreSpec":"245/45R19"},{"id":"VO0000000332","tyreSpec":"245/45R20"},{"id":"VO0000000333","tyreSpec":"245/50R18"},{"id":"VO0000000334","tyreSpec":"245/50R18"},{"id":"VO0000000335","tyreSpec":"245/50R18"},{"id":"VO0000000336","tyreSpec":"245/55R19"},{"id":"VO0000000337","tyreSpec":"245/60R18"},{"id":"VO0000000338","tyreSpec":"245/70R16"},{"id":"VO0000000339","tyreSpec":"255/40R18"},{"id":"VO0000000340","tyreSpec":"255/40R18"},{"id":"VO0000000341","tyreSpec":"255/40R19"},{"id":"VO0000000342","tyreSpec":"255/40R19"},{"id":"VO0000000343","tyreSpec":"255/40R20"},{"id":"VO0000000344","tyreSpec":"255/40R20"},{"id":"VO0000000345","tyreSpec":"255/40R21"},{"id":"VO0000000346","tyreSpec":"255/40R21"},{"id":"VO0000000347","tyreSpec":"255/40R21"},{"id":"VO0000000348","tyreSpec":"255/40R21"},{"id":"VO0000000349","tyreSpec":"255/40R21"},{"id":"VO0000000350","tyreSpec":"255/40R22"},{"id":"VO0000000351","tyreSpec":"255/45R18"},{"id":"VO0000000352","tyreSpec":"255/45R18"},{"id":"VO0000000353","tyreSpec":"255/45R19"},{"id":"VO0000000354","tyreSpec":"255/45R19"},{"id":"VO0000000355","tyreSpec":"255/50R19"},{"id":"VO0000000356","tyreSpec":"255/50R19"},{"id":"VO0000000357","tyreSpec":"255/55R18"},{"id":"VO0000000358","tyreSpec":"255/55R19"},{"id":"VO0000000359","tyreSpec":"255/55R20"},{"id":"VO0000000360","tyreSpec":"255/60R17"},{"id":"VO0000000361","tyreSpec":"255/60R17"},{"id":"VO0000000362","tyreSpec":"255/60R18"},{"id":"VO0000000363","tyreSpec":"265/40R21"},{"id":"VO0000000364","tyreSpec":"265/40R21"},{"id":"VO0000000365","tyreSpec":"265/45R18"},{"id":"VO0000000366","tyreSpec":"265/50R19"},{"id":"VO0000000367","tyreSpec":"265/50R19"},{"id":"VO0000000368","tyreSpec":"265/50R19"},{"id":"VO0000000369","tyreSpec":"265/50R19"},{"id":"VO0000000370","tyreSpec":"265/50R19"},{"id":"VO0000000371","tyreSpec":"265/60R18"},{"id":"VO0000000372","tyreSpec":"265/65R17"},{"id":"VO0000000373","tyreSpec":"275/40R19"},{"id":"VO0000000374","tyreSpec":"275/40R19"},{"id":"VO0000000375","tyreSpec":"275/40R22"},{"id":"VO0000000376","tyreSpec":"275/45R19"},{"id":"VO0000000377","tyreSpec":"275/45R21"},{"id":"VO0000000378","tyreSpec":"275/45ZR2"},{"id":"VO0000000379","tyreSpec":"275/50R20"},{"id":"VO0000000380","tyreSpec":"275/50R20"},{"id":"VO0000000381","tyreSpec":"275/65R17"},{"id":"VO0000000382","tyreSpec":"275/65R17"},{"id":"VO0000000383","tyreSpec":"275/65R17"},{"id":"VO0000000384","tyreSpec":"275/65R17"},{"id":"VO0000000385","tyreSpec":"275/65R17"},{"id":"VO0000000386","tyreSpec":"275/70R16"},{"id":"VO0000000387","tyreSpec":"285/45R21"},{"id":"VO0000000388","tyreSpec":"285/45R21"},{"id":"VO0000000389","tyreSpec":"285/45R21"},{"id":"VO0000000390","tyreSpec":"285/45R21"},{"id":"VO0000000391","tyreSpec":"285/45R21"},{"id":"VO0000000392","tyreSpec":"285/60R18"}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getSpec -->
+      </class> <!-- zdh.caseuse.SelectSpec -->
+      <class name="zdh.caseuse.SelectTyre">
+        <test-method status="FAIL" signature="getTyre(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:zdh.caseuse.SelectTyre@26ba2a48]" name="getTyre" duration-ms="93" depends-on-groups="selectBrand, login" started-at="2019-09-06T08:59:51Z" data-provider="base2" finished-at="2019-09-06T08:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[获取轮胎详细信息（轮胎）]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{id:"${id}"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[｛code:"200"｝]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at zdh.service.BaseProcessor.ExcuteCase(BaseProcessor.java:46)
+	at zdh.caseuse.SelectTyre.getTyre(SelectTyre.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/tyre/VQ0000000060]]>
+            </line>
+            <line>
+              <![CDATA[状态码：404]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTyre -->
+      </class> <!-- zdh.caseuse.SelectTyre -->
+      <class name="zdh.caseuse.LoginCase">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:zdh.caseuse.LoginCase@73f792cf]" name="login" duration-ms="632" started-at="2019-09-06T08:59:50Z" description="鉴权登录接口" data-provider="base" finished-at="2019-09-06T08:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[获取认证中心访问权限]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{client_secret:"lunz#",client_id:"client1",grant_type:"client_credentials",scope:"dc-articles-api" }]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[｛code:"200"｝]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[接口url：http://identity-fat.lunz.cn/connect/token]]>
+            </line>
+            <line>
+              <![CDATA[状态码：200]]>
+            </line>
+            <line>
+              <![CDATA[{"access_token":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjcwRkYzQTE1QjcyNjczOEY0ODcyOTEyREZCNEVCMEZFQTQ3REUxRjEiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJjUDg2RmJjbWM0OUljcEV0LTA2d19xUjk0ZkUifQ.eyJuYmYiOjE1Njc3MzE1OTUsImV4cCI6MTU2Nzc2NzU5NSwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS1mYXQubHVuei5jbiIsImF1ZCI6WyJodHRwczovL2lkZW50aXR5LWZhdC5sdW56LmNuL3Jlc291cmNlcyIsImRjLWFydGljbGVzLWFwaSJdLCJjbGllbnRfaWQiOiJjbGllbnQxIiwic2NvcGUiOlsiZGMtYXJ0aWNsZXMtYXBpIl19.Yfx46j6SxLZy92xWmMpVCf6_n9bbBDdlPle6oYv0Ok1a4e3bPoD-DqNfnmRVzwfKHemnqDJzFtb-kuG9hT_o1PcEYfIim748nSannfGZoYn0Swh8yvUG6398XGr1Ex_IJ-NIoifaZ4GGab7IzUiNcbKuqGxKi3Mw97cdPsZAVdpTMUDubxaLG0yeZfLKOXumvgtx4w7CiWX5WrwsVoQ-1NZvP8-SYWRRU_-vRaMeN5BqOXjHZPEv4KSzpjRV5IJuVujc1WC4SDv6x6ARSVWvAtshgNmj-0awQmppAKaw3g_VYT73Ka1cmhDyq9IDSL9iM8otckDNMT4EVtJ6dR8opw","expires_in":36000,"token_type":"Bearer"}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- zdh.caseuse.LoginCase -->
+      <class name="zdh.caseuse.SelectTraffic">
+        <test-method status="FAIL" signature="selectTraffic(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:zdh.caseuse.SelectTraffic@5f2050f6]" name="selectTraffic" duration-ms="80" depends-on-groups="login" started-at="2019-09-06T08:59:51Z" data-provider="base1" finished-at="2019-09-06T08:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[根据Id获取交警队信息 【不存在的id】]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{id:"VI0000000069"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[｛code:"200"｝]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at zdh.service.BaseProcessor.ExcuteCase(BaseProcessor.java:46)
+	at zdh.caseuse.SelectTraffic.selectTraffic(SelectTraffic.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/trafficPoliceTeams/VI0000000069]]>
+            </line>
+            <line>
+              <![CDATA[状态码：404]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectTraffic -->
+      </class> <!-- zdh.caseuse.SelectTraffic -->
+      <class name="zdh.caseuse.Depend1">
+        <test-method status="PASS" signature="getBrand(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:zdh.caseuse.Depend1@2ed94a8b]" name="getBrand" duration-ms="156" depends-on-groups="login" started-at="2019-09-06T08:59:51Z" data-provider="base1" finished-at="2019-09-06T08:59:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[获取轮胎品牌列表(无参数) ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[｛code:"200"｝]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[接口url：http://dc-basics-api-gw-fat.k8s.lunz.cn/api/v1/tyre/brand]]>
+            </line>
+            <line>
+              <![CDATA[状态码：200]]>
+            </line>
+            <line>
+              <![CDATA[[{"id":"VQ0000000001","tyreBrand":"奥特瑞普（AUTOGRIP）"},{"id":"VQ0000000045","tyreBrand":"艾尔吉（ILG）"},{"id":"VQ0000000035","tyreBrand":"艾威雷博（Available）"},{"id":"VQ0000000010","tyreBrand":"安达ENTDA"},{"id":"VQ0000000034","tyreBrand":"安睿驰PRIMUS"},{"id":"VQ0000000053","tyreBrand":"倍耐力（Pirelli）"},{"id":"VQ0000000074","tyreBrand":"博莱克（ROYAL BLACK）"},{"id":"VQ0000000071","tyreBrand":"百路驰BFGoodrich"},{"id":"VQ0000000047","tyreBrand":"车之骄"},{"id":"VQ0000000039","tyreBrand":"驰乐（luccini）"},{"id":"VQ0000000060","tyreBrand":"朝阳"},{"id":"VQ0000000020","tyreBrand":"车必应"},{"id":"VQ0000000050","tyreBrand":"邓禄普（DUNLOP）"},{"id":"VQ0000000026","tyreBrand":"道路侠"},{"id":"VQ0000000009","tyreBrand":"迪达DIDAR"},{"id":"VQ0000000076","tyreBrand":"东洋轮胎（TOYO TIRES）"},{"id":"VQ0000000105","tyreBrand":"风神（AEOLUS）"},{"id":"VQ0000000107","tyreBrand":"飞雳士"},{"id":"VQ0000000061","tyreBrand":"固铂（Cooper）"},{"id":"VQ0000000055","tyreBrand":"固特异（Goodyear）"},{"id":"VQ0000000068","tyreBrand":"回力（Warrior）"},{"id":"VQ0000000070","tyreBrand":"海福莱（HiFLy）"},{"id":"VQ0000000072","tyreBrand":"海大（Haida）"},{"id":"VQ0000000054","tyreBrand":"韩泰（Hankook）"},{"id":"VQ0000000003","tyreBrand":"好运GOODRIDE"},{"id":"VQ0000000015","tyreBrand":"金宇（JINYU TIRES）"},{"id":"VQ0000000058","tyreBrand":"锦湖轮胎（KUMHO）"},{"id":"VQ0000000033","tyreBrand":"京保养（Jbaoy）"},{"id":"VQ0000000052","tyreBrand":"佳通轮胎（Giti）"},{"id":"VQ0000000002","tyreBrand":"狂野大师（crossleader）"},{"id":"VQ0000000006","tyreBrand":"KOWELL"},{"id":"VQ0000000005","tyreBrand":"莱维特LANVIGATOR"},{"id":"VQ0000000100","tyreBrand":"玲珑"},{"id":"VQ0000000027","tyreBrand":"凌艺"},{"id":"VQ0000000011","tyreBrand":"雷登"},{"id":"VQ0000000049","tyreBrand":"马牌（Continental）"},{"id":"VQ0000000048","tyreBrand":"米其林（MICHELIN）"},{"id":"VQ0000000056","tyreBrand":"玛吉斯"},{"id":"VQ0000000099","tyreBrand":"诺记"},{"id":"VQ0000000069","tyreBrand":"南港（NANKANG）"},{"id":"VQ0000000063","tyreBrand":"耐克森（NEXEN）"},{"id":"VQ0000000004","tyreBrand":"欧米奥（OUMIAO）"},{"id":"VQ0000000051","tyreBrand":"普利司通（Bridgestone）"},{"id":"VQ0000000025","tyreBrand":"旁恩"},{"id":"VQ0000000013","tyreBrand":"全诺（TRAZANO）"},{"id":"VQ0000000024","tyreBrand":"瑞思通（LENSTON）"},{"id":"VQ0000000038","tyreBrand":"锐翊"},{"id":"VQ0000000064","tyreBrand":"赛轮"},{"id":"VQ0000000022","tyreBrand":"双星轮胎（DOUBLESTAR）"},{"id":"VQ0000000012","tyreBrand":"双王DOUBLE KING"},{"id":"VQ0000000073","tyreBrand":"双钱"},{"id":"VQ0000000059","tyreBrand":"三角（Triangle）"},{"id":"VQ0000000067","tyreBrand":"万力轮胎（WANLI TIRE）"},{"id":"VQ0000000007","tyreBrand":"万达宝通（BOTO）"},{"id":"VQ0000000075","tyreBrand":"维诺亚"},{"id":"VQ0000000028","tyreBrand":"威狮（WEST LAKE）"},{"id":"VQ0000000040","tyreBrand":"WORMS"},{"id":"VQ0000000057","tyreBrand":"优科豪马（yokohama）"},{"id":"VQ0000000062","tyreBrand":"正新"}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getBrand -->
+      </class> <!-- zdh.caseuse.Depend1 -->
+    </test> <!-- login -->
+  </suite> <!-- DataCenter -->
+</testng-results>
