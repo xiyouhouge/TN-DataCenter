@@ -73,7 +73,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.38</version>
+            <version>1.2.83</version>
         </dependency>
 
         <dependency>
@@ -111,7 +111,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.47</version>
+            <version>1.2.83</version>
         </dependency>
         <!-- 引入测试报告相关包-->
         <dependency>
